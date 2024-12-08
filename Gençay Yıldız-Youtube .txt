@@ -1,0 +1,53 @@
+Gencay Yıldız Youtube 
+Proje: İçerisinde amaca dair çözümler getirilen kodsal çalışmaların yapıldığı (yani operasyonların yürütüldüğü) bir bütündür.
+Solution: İçerisinde bir veya birden fazla proje barındırabilen bir evrensel kümedir.
+
+Build: Derlemeyi yapar
+Rebuiild: Önceden derlenip çıktı alınan projeyi siler yeniden derlemeyi yapar
+Clean: Derlenmiş dosyaları siler 
+
+-->DOTNET CLI
+Command Line Interface
+.NET Komut satırı arayüzüdür.
+.NET uygulamaları geliştirmeyi, oluşturmayı, çalıştırmayı ve yayınlamayı sağlar.
+.NET SDK ile birlikte gelir.
+
+-->Temel Komutlar
+-help
+Dotnet CLI tarafından desteklenen komutlar hakkında ayrıntılı bilgi veren komuttur.
+
+-new 
+proje oluşturmak için kullanırız.
+
+-restore
+proje sürecinde referans edilen yahut referansı kaldırılan paketlerin restorasyonunu sağlar.
+
+-build
+Projeyi derler ve sonuç olarak .exe ve .dll çıktıları verir.
+Derlemeden önce projeyi restore eder.
+\bin\Debug\net.50 dizinine çıktı verir.
+
+-publish
+Projeyi derleyerek, yayınlayabilir dosyaları çıktı olarak verir.
+Çıktı olarak;
+.dll,
+.deps.json(projenin tüm bağımlılıklarını içerir),
+.runtimeconfig.json(runtime konfigürasyonları), 
+Uygulama bağımlılıklarının dll'leri
+\bin\Debug\net5.0\publish dizinine çıktı verir.
+
+-run
+uygulamayı derler ve ayağa kaldırır. Çalıştırır.
+no-build --> uygulamayı derlemeden ayağa kaldırır.
+
+-->Proje Modifikasyon Komutları
+-add package -> Uygulamaya Nuget'ten paket/kütüphane yüklememizi sağlar
+-add reference -> Uygulamaya fiziksel bir dll dosyasını referans etmemizi sağlar.
+-remove package -> Uygulamaya yüklenmiş olan paketlerin/kütüphanelerin silinmesini sağlar.
+-remove reference -> Uygulamaya referans edilmiş dll'leri kaldırır.
+-list reference -> Uygulamada referans edilen tüm paketleri listeler.
+
+Programlamnaya Başlarken Temel İlkeler
+-Don't Repeat Yourself
+-Anlamlı isimlendirme
+
