@@ -1,0 +1,7 @@
+C:\Users\nazli\source\repos\GencayYildiz\MainNedir\bin\Debug\MainNedir.exe.config
+C:\Users\nazli\source\repos\GencayYildiz\MainNedir\bin\Debug\MainNedir.exe
+C:\Users\nazli\source\repos\GencayYildiz\MainNedir\bin\Debug\MainNedir.pdb
+C:\Users\nazli\source\repos\GencayYildiz\MainNedir\obj\Debug\MainNedir.csproj.AssemblyReference.cache
+C:\Users\nazli\source\repos\GencayYildiz\MainNedir\obj\Debug\MainNedir.csproj.CoreCompileInputs.cache
+C:\Users\nazli\source\repos\GencayYildiz\MainNedir\obj\Debug\MainNedir.exe
+C:\Users\nazli\source\repos\GencayYildiz\MainNedir\obj\Debug\MainNedir.pdb
